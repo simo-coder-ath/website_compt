@@ -1,14 +1,14 @@
 
-        :root {
-            --primary-color: #2563eb;
-            --secondary-color: #1e40af;
-            --accent-color: #3b82f6;
-            --dark-color: #1e293b;
-            --light-color: #f8fafc;
-            --text-color: #334155;
-            --text-light: #64748b;
-            --transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-        }
+       :root {
+    --primary-color: #4bff41; /* Vert ouvert */
+    --secondary-color: #047857; /* Vert plus foncé */
+    --accent-color: #3B82F6; /* Bleu vif */
+    --dark-color: #1E293B; /* Bleu foncé (base sombre) */
+    --light-color: #F8FAFC; /* Fond très clair */
+    --text-color: #334155; /* Couleur texte principale */
+    --text-light: #64748B; /* Couleur texte secondaire */
+    --transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
         
         * {
             margin: 0;
@@ -39,7 +39,7 @@
 
         .navbar {
     padding: 0; /* Remplacez la valeur actuelle par 0 */
-    height: 60px; /* Fixez une hauteur pour la navbar */
+    height: 70px; /* Fixez une hauteur pour la navbar */
     display: flex;
     align-items: center;
 }
@@ -57,7 +57,7 @@
             padding: 5px 0;
             z-index: 1000;
             transition: var(--transition);
-            background: rgba(255, 255, 255, 0.9);
+            background: rgb(255, 255, 255);
             backdrop-filter: blur(10px);
         }
         
